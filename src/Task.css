@@ -1,0 +1,27 @@
+.task {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(
+    rgba(0, 247, 255, 0.089),
+    rgba(12, 205, 253, 0.438)
+  );
+  min-height: 50px;
+  min-width: 20vw;
+  align-items: center;
+  border: solid rgba(255, 255, 255, 0.322) 2px;
+  border-radius: 0px;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.checked {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.unchecked {
+  font-style: normal;
+  opacity: 1;
+}
